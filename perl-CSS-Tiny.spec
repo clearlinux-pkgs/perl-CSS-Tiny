@@ -4,7 +4,7 @@
 #
 Name     : perl-CSS-Tiny
 Version  : 1.20
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/C/CH/CHORNY/CSS-Tiny-1.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CH/CHORNY/CSS-Tiny-1.20.tar.gz
 Summary  : Read/Write .css files with as little code as possible
@@ -19,6 +19,7 @@ No detailed description available
 Summary: dev components for the perl-CSS-Tiny package.
 Group: Development
 Provides: perl-CSS-Tiny-devel = %{version}-%{release}
+Requires: perl-CSS-Tiny = %{version}-%{release}
 
 %description dev
 dev components for the perl-CSS-Tiny package.
