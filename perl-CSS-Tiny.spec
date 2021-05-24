@@ -4,7 +4,7 @@
 #
 Name     : perl-CSS-Tiny
 Version  : 1.20
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/C/CH/CHORNY/CSS-Tiny-1.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CH/CHORNY/CSS-Tiny-1.20.tar.gz
 Summary  : Read/Write .css files with as little code as possible
