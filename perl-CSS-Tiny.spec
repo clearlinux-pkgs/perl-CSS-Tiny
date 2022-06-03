@@ -4,7 +4,7 @@
 #
 Name     : perl-CSS-Tiny
 Version  : 1.20
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/C/CH/CHORNY/CSS-Tiny-1.20.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CH/CHORNY/CSS-Tiny-1.20.tar.gz
 Summary  : Read/Write .css files with as little code as possible
@@ -80,4 +80,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/CSS/Tiny.pm
+/usr/lib/perl5/*
